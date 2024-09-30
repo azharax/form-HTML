@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and Frame</title>
+</head>
+<body style="padding-top: 2%; padding-left: 2%; background-color: rgb(250, 135, 135);">
+    <form action="">
+     
+        <div>
+            <label for="fname", style="padding-right: 1%;" value="FirstName" required>Firstname </label>
+            <input type="text" style="width: 15%;">
+        </div>
+        <br>
+
+        <div>
+            <label for="fname", style="padding-right: 1%; "value="MidName" required>Middlename: </label>
+            </table><input type="text" style="width: 15%;">
+        </div>
+        <br>
+
+        <div>
+            <label for="fname", style="padding-right: 1%;" value="Lastname" required>Lastname: </label>
+            <input type="text" style="width: 15%;">
+    
+        </div>
+        <br>
+        <div>
+            <label for="Course1">Course: </label>
+            <select name="course" id="course" >
+                <option value="" disabled selected hidden>Course</option>
+                <option value="PWEB">Pemrograman Web</option>
+                <option value="PBO">Pemrograman Berorientasi Objek</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="Gend">Gender: </label>
+            <br>
+            <input type="radio" name="Gen"  id="Male" value="M" required>
+            <label for="Male">Male </label>
+            <br>
+            
+            <input type="radio" name="Gen"  id="Female" value="F" required>
+            <label for="Female" >Female </label>
+            <br>
+            
+            <input type="radio" name="Gen" id="Other" value="O" required>
+            <label for="Other" >Other </label>
+        </div>
+        <br>
+        <div>
+            <label for="phone">Phone:</label>
+            <input type="text" id="phonecode" name="code"  maxlength="4" style="width: 5%;" VALUE="+62" required>
+            <input type="tel" id="phone" name="phone"   required>
+    
+        </div>
+        <br>
+        <div>
+            <label for="addr">Adress</label> <br>
+            <textarea name="addr" id="addr" rows="7" cols="80"></textarea>
+        </div>
+        <br>        
+        <div>
+            <label for="Email">Email:</label>
+        <input type="email" id="email" name="email"  required>
+        </div>
+        <br>
+        <div>
+            <label for="Email">Password:</label>
+        <input type="password" id="pwd" name="pwd"  required>
+        </div>
+        <br>
+        <div>
+            <label for="Email">Re-type password:</label>
+        <input type="password" id="rpwd" name="rpwd"  required>
+        </div>
+        <br>
+        <input type="submit" name="" id="" value="Submit">
+    </form>
+</body>
+</html>
